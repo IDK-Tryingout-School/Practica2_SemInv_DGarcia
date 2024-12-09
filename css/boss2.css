@@ -1,0 +1,106 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #663399;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.right-image {
+    align-self: flex-start; /* Alinea la imagen en la parte superior */
+    margin-left: auto; /* Empuja la imagen hacia la derecha */
+    max-width: 100px; /* Ajusta este valor según sea necesario */
+    height: auto;
+}
+
+left-image{
+    align-self: flex-start; /* Alinea la imagen en la parte superior */
+    margin-left: auto; /* Empuja la imagen hacia la derecha */
+    max-width: 10%; /* Ajusta este valor según sea necesario */
+    height: 10%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #E91E63;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #66FFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #663399;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #542c70;
+}

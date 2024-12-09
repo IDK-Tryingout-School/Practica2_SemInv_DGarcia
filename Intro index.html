@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro a la practica 2</title>
+    <link rel="stylesheet" href= "css/boss2.css">
+</head>
+<body>
+    <header>
+        <h1>Practica 2. Mi pagina web</h1>
+        <h2>Alterar diferentes aspectos sobre paginas existentes</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#Escuela">Escuela</a></li>
+            <li><a href="#Seminario">Seminario Inv.</a></li>
+            <li><a href="#Temario">Temario</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h3>Bienvenido a mi primera pagina web</h3>
+        <p>El ejercicio de esta practica es realizar los siguientes puntos en base en una pagina ya existente:</p>
+        <ul>
+            <li>MODIFICAR TEXTO</li>
+            <li>CAMBIAR IMAGENES</li>
+            <li>AGREGAR HIPERVINCULOS</li>
+            <li>GENERAR UN APARTADO QUE REGRESE AL INDEX</li>
+            <li>BUSCAR UN HOST PARA SUBIR (GRATUITO)</li>
+        </ul>
+    </section>
+
+    <section id="Escuela">
+        <h3>Escuela</h3>
+        <p>En presencia de la universidad UCAD, de la carrera Ingeniria en Sistemas computacionales</p>  
+		<br>
+            <img src="img/Logo UCAD.jpg" alt="Descripción de la imagen" class="left-image" height= "300">   
+		<br>
+    </section>
+
+    <section id="Seminario">
+        <h3>Seminario de Investigación. Curso de Ingeniria en Sistemas Computacionales</h3>
+        <p>Seminario a titulo de la carrera de Ingeniria en Sistemas Computacionales, Modulo numero 4: Paginas Web</p>
+        <!-- Sección para horóscopos diarios -->
+    </section>
+
+    <section id="Temario">
+        <h3>Temario</h3>
+        <ul>
+            <li>
+               <a href="Intro index.html">Introduccion a la practica</a>
+               </li>  
+            <li>
+               <a href="Mis Gustos.html">Mis gustos</a>
+               </li>
+           <li>
+               <a href="Arte.html">Arte y comisiones</a>
+               </li>
+           </ul>
+        <!-- Sección para compatibilidad -->
+    </section>
+
+    <section id="contacto">
+        <h3>Contacto</h3>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div>
+            <h4>Enlaces UCAD</h4>
+            <ul>
+                <li><a href="https://ucad.edu.mx/?gad_source=1&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkUZQt7Mq4Ovk0FoSUblhIbOdU3dkBxn1Pg0eYZlzDY_4SNOAJ8IbuQaAofVEALw_wcB">Pagina de UCAD</a></li>
+                <li><a href="https://www.facebook.com/universidad.ucad/">Facebook de la universidad</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Redes mis redes Sociales</h4>
+            <!--Imagine que aqui estan mis redes sociales-->
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <div>
+            <h4>Contacto</h4>
+            <p>Email: (...)@ucad.edu.mx</p>
+            <p>Teléfono: +123456789</p>
+        </div>
+        <div>
+            <p><a href="#">Política de Privacidad</a> | <a href="#">Términos de Uso</a></p>
+        </div>
+    </footer>
+
+    <script src="js/boss.js"></script>
+</body>
+</html>

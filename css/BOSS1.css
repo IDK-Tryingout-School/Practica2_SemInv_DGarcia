@@ -1,0 +1,151 @@
+*{ 
+    margin: opx; 
+	padding: 0px; 
+} 
+
+
+
+body 
+{ 
+    background:#000000 ; 
+	font-family:sans-serif; 
+} 
+
+header 
+{  
+    background:#00FFFF ; 
+	width: 100%; 
+	clear: both; 
+	content: ''; 
+	display.table; 
+    } 
+.menu 
+{ 
+    width:900px; 
+	margin: 0 auto; 
+}  
+
+nav 
+{ 
+   float: right; 
+  
+} 
+
+nav ul li 
+{ 
+    list-style: none; 
+	float: left; 
+	margin-left: 75px; 
+	padding: 25px 0; 
+	position: relative; 
+} 
+
+
+nav ul li a 
+{ 
+font-decoration: none; 
+color: #FDFEFE; 
+font-weight: bold; 
+} 
+
+nav ul li a::before 
+{ 
+    display:block 
+	content; ''; 
+	width: 0%; 
+	background:#444; 
+	height: 5px; 
+	top: 0; 
+	position: absolute; 
+	transition: width 0.2s; 
+} 
+
+
+nav ul li a:hover::before  
+{ 
+    width: 100%; 
+} 
+
+#container
+{ 
+    width: 95%; 
+	margin: 0px auto; 
+	border: 2px solid white; 
+} 
+
+.clearfix 
+{ 
+   clear:both; 
+}  
+
+#contenido1{ 
+    float:left; 
+	width: 30%; 
+	background:#66BB6A; 
+	min-height:500px; 
+
+} 
+
+#contenido2{ 
+    float: left; 
+	width: 30%; 
+	background:#66BB6A; 
+	min-height:500px; 
+
+}  
+#contenido3{ 
+    float: left; 
+	width: 30%; 
+	background:#512DA8; 
+	min-height:500px; 
+
+} 
+
+footer 
+{ 
+    background:#FF0099 ; 
+	color: black; 
+	text-align: center; 
+	height: 50px; 
+	line-height: 50px; 
+}  
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los elementos */
+    max-width: 1000px;
+    margin: 20px;
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 10px); /* Tres columnas */
+    box-sizing: border-box;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+
